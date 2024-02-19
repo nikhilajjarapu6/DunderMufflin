@@ -201,17 +201,14 @@ button:hover {
 
     body {
         margin: 0%;
-        width: 100%;
+        width: 80%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
        
     }
     
-    .section {
-       margin-top: 50px;
-    
-    }
+   
     
     .heading {
         display: flex;
