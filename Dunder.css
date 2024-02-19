@@ -201,7 +201,7 @@ button:hover {
 
     body {
         margin: 0%;
-        width: 80%;
+        width: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -260,6 +260,7 @@ button:hover {
      }
      .author{
         margin-left: 20px;
+        position:fixed;
      }
      
     
