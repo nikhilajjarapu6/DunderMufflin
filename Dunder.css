@@ -207,7 +207,9 @@ button:hover {
         background-size: cover;
        
     }
-    
+    .section{
+        margin-top:-50px;
+    }
    
     
     .heading {
