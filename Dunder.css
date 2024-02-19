@@ -198,12 +198,12 @@ button:hover {
     }
 
     body {
-        margin: 0;
+        margin: 0%;
         /* width: 100%; */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        background-color: inherit;
+/*         background-color: inherit; */
     }
     
     .section {
@@ -267,3 +267,10 @@ button:hover {
    
   
 }
+@media screen and (max-height:50vh){
+    body{
+          margin: 0%;
+            width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
