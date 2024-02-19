@@ -159,3 +159,86 @@ button:hover{
     margin: 7px 4px 0px 10px;
     color: #fff;
   }
+@media screen and (max-width:500px) {
+    .logo {
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .nav-items li {
+        display: flex;
+        margin-top: 10px;
+        margin-left: -10px;
+        gap: 55px;
+    }
+
+    body {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: inherit;
+    }
+    
+    .section {
+       margin-top: 60px;
+    
+    }
+    
+    .heading {
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+        flex-wrap: wrap;   
+        margin-left: -10px;
+        
+    }
+    .comma{
+        display: none;
+    }
+    .right{
+        margin-top: -50px;
+    }
+
+    .formcontrol {
+        width: 380px;
+        margin-left: -10px;
+    }
+    .popular-tags {
+        display: flex;
+        width: 370px;
+        flex-direction: column;
+        margin-top: 40px;
+      
+       
+    }
+    .tags{
+        width: 150px;
+       display: flex;
+       /* flex-direction: column; */
+       margin: 0%;
+       margin-left: -40px;
+       margin-top: 20px;
+       
+       
+    }
+    .tags li {
+        font-size: 13px;
+        border-radius: 3px; /* Remove border-radius */
+        color: green;
+    }
+    .tags li a{
+       color: white;
+    }
+    .tags li a:hover{
+        color: green;
+     }
+     .author{
+        margin-left: 20px;
+     }
+     
+    
+   
+  
+}
