@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+  
 
 }
 
@@ -18,7 +19,7 @@ body {
     height: 100%;
     color: aliceblue;
     display: flex;
-    position: fixed;
+    position: relative;
     top: 200px;
 
 }
@@ -26,7 +27,9 @@ body {
 .header {
     width: 100%;
     background-color: rgba(0, 0, 0, 0);
-    
+   
+    left: 0;
+    top: 0;
     z-index: 1;
     /* background-color: aquamarine; */
 }
@@ -199,15 +202,15 @@ button:hover {
 
     body {
         margin: 0%;
-        /* width: 100%; */
+        width: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-/*         background-color: inherit; */
+       
     }
     
     .section {
-       margin-top: 10px;
+       margin-top: 50px;
     
     }
     
@@ -267,10 +270,5 @@ button:hover {
    
   
 }
-@media screen and (min-height:80vh){
-    body{
-          margin: 0%;
-            width: 100%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
+
+
