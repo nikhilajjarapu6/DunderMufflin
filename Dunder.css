@@ -186,7 +186,7 @@ button:hover {
     color: #fff;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:420px) {
       body {
         margin: 0%;
         width: 100%;
