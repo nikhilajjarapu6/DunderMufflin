@@ -183,7 +183,7 @@ button:hover {
     color: #fff;
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:450px) {
     .logo {
         margin-left: 20px;
         font-size: 30px;
@@ -267,7 +267,7 @@ button:hover {
    
   
 }
-@media screen and (max-height:50vh){
+@media screen and (mix-height:80vh){
     body{
           margin: 0%;
             width: 100%;
