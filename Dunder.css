@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
-body{
+
+body {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -10,35 +11,40 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+
 }
-.section{
+
+.section {
     height: 100vh;
     color: aliceblue;
     display: flex;
     position: fixed;
     top: 200px;
-    
+
 }
-.header{
+
+.header {
     width: 100%;
-    background-color:rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     left: 0;
     top: 0;
     z-index: 1;
     /* background-color: aquamarine; */
 }
-.logo{
+
+.logo {
     color: aliceblue;
 }
+
 header .navbar {
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
@@ -49,34 +55,44 @@ header .navbar {
     margin: 0px;
 }
 
-.navbar ul li{
+.navbar ul li {
     color: #fff;
-  font-weight: 500;
-  text-decoration: none;
-  transition: 0.2s ease;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease;
 
 }
-.navbar ul li:hover{
+
+.navbar ul li:hover {
     color: green;
-  font-weight: 500;
-  text-decoration: none;
-  transition: 0.2s ease;
-  
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease;
+
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     margin: 20px;
     gap: 10px;
 }
-.heading{
+
+.heading {
     font-size: 45px;
 }
-.heading-span{
+
+.heading-span {
     color: green;
+    display: inline-flex
 }
-.formcontrol{
+
+.comma{
+    color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+.formcontrol {
     display: flex;
     max-width: 650px;
     height: 60px;
@@ -85,81 +101,91 @@ header .navbar {
 .input-group-text {
     height: 100%;
     width: 50px;
-     border: none;
+    border: none;
     outline: none;
     cursor: pointer;
-     background:green;
-     color: #fff;
-     border-radius: 0 4px 4px 0;
-     transition: background 0.2s ease;
-     padding-right:25px;
+    background: green;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    transition: background 0.2s ease;
+    padding-right: 25px;
 
 }
-button:hover{
-    background:#1dbf73d0;
+
+button:hover {
+    background: #1dbf73d0;
 }
-.input-group{
+
+.input-group {
     border-radius: 4px 0px 0px 4px;
     height: 50px;
 }
+
 .form-control:focus {
-    border-color: rgba(255, 166, 0, 0) ;
-    box-shadow: none ;
-}
-.popular-tags{
-    display: flex;
-    
+    border-color: rgba(255, 166, 0, 0);
+    box-shadow: none;
 }
 
-.tags{
+.popular-tags {
+    display: flex;
+
+}
+
+.tags {
     display: flex;
     flex-direction: row;
     gap: 25px;
-     text-decoration: none;
-     list-style: none;
-}
-.tags li:hover{
-    background-color: white;
-}
-.tags li{
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 4px 12px;
-  border-radius: 50px;
-  transition: 0.2s ease;
+    text-decoration: none;
+    list-style: none;
 }
 
-.tags li a{
-   text-decoration: none;
-  }
-  .logo{
+.tags li:hover {
+    background-color: white;
+}
+
+.tags li {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 4px 12px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+
+.tags li a {
+    text-decoration: none;
+}
+
+.logo {
     text-decoration: none;
     color: green;
     font-weight: bolder;
     font-size: larger;
-  }
+}
 
-  .author{
+.author {
     display: flex;
     position: absolute;
     top: 93vh;
     margin-left: 40px;
     border: 1px solid white;
     border-radius: 10px;
-  }
-  .author a{
+}
+
+.author a {
     text-decoration: none;
     color: yellowgreen;
     margin: 5px;
-  }
-  .fa-brands{
+}
+
+.fa-brands {
     font-size: 20px;
     /* margin-left: 10px;
     margin-top: 5px; */
     margin: 7px 4px 0px 10px;
     color: #fff;
-  }
-@media screen and (max-width:500px) {
+}
+
+@media screen and (max-width:420px) {
     .logo {
         margin-left: 20px;
         font-size: 30px;
@@ -174,6 +200,7 @@ button:hover{
     }
 
     body {
+        margin: 0%;
         width: 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
